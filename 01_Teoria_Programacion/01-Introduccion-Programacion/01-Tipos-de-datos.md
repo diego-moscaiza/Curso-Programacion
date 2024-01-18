@@ -72,7 +72,7 @@ animales = { "dog", "cat", "turtle" }
 numerosPrimos = { 2, 3, 5, 7, 11 }
 ```
 
-## 3. Comentarios.
+## Comentarios.
 
 En los lenguajes de programación se puede realizar comentarios al código para dejar una descripción o un mensaje breve. Se puede comentar el mismo código con el propósito de que no se ejecute esa porción de código. Algunos lenguajes de programación manejan una misma forma de crear comentarios y en otros puede variar.
 
