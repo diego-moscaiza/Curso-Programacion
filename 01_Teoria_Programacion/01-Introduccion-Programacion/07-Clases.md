@@ -1,6 +1,6 @@
 # Clases
 
-En programación, una clase es un tipo de objeto que tiene atributos y métodos, o dicho de otra forma, datos y funciones que representa conceptos de la vida real. Pueden contener una diversa cantidad de información. Una vez creada una clase, los objetos que se crean a partir de estas son llamadas instancias.
+En programación, una clase es un tipo de objeto que tiene atributos y métodos, o, dicho de otra forma, datos y funciones que representa conceptos de la vida real. Pueden contener una diversa cantidad de información. Una vez creada una clase, los objetos que se crean a partir de estas son llamadas instancias.
 
 **Ejemplo:**
 
@@ -25,7 +25,9 @@ class Lenguaje {
         System.out.println(this.nombre + " fue creado en " + this.anio);
     }
 }
+```
 
+```java
 // Instancia de una clase
 // - La instacia es un objeto creado a partir de una clase.
 

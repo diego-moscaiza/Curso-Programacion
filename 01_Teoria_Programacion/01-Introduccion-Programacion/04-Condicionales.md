@@ -4,11 +4,18 @@ Las condicionales son segmentos de código que permiten elegir entre la ejecuci�
 
 ## 1. If, else y else if.
 
-- `if`: Es la palabra reservada que significa 'Si' de forma condicional y es utilizara para que realice una acción si se cumple un resultado o un evento.
+**`if`:**
+Es la palabra reservada que significa 'Si' de forma condicional y es utilizara para que realice una acción si se cumple un resultado o un evento.
 
-- `else`: Esta palabra significa 'Sino' de forma condicional. Se puede colocar después de un `if` o `else if` en dado caso no se cumpla la condición
+**`else`:**
+Esta palabra significa 'Sino' de forma condicional. Se puede colocar después de un **if** o **else if** en dado caso no se cumpla la condición
 
-- `else if` o `elif`: Se utiliza cuando se combinan varias opciones que el programa debe elegir. Esta debe de ir antes de un `else` para que puede ser ejecutada.
+**`else if` o `elif`:**
+Se utiliza cuando se combinan varias opciones que el programa debe elegir. Esta debe de ir antes de un **else** para que puede ser ejecutada.
+
+**Ejemplos:**
+
+Usando el lenguaje Python:
 
 ```python
 # If, else y elif con python
@@ -16,14 +23,15 @@ Las condicionales son segmentos de código que permiten elegir entre la ejecuci�
 precio_arroz = 10;
 precio_pollo = 20;
 
-if (precio_arroz > precio_pollo) {
+if (precio_arroz > precio_pollo)
     print("El arroz cuesta más que el pollo.");
-} elif (precio_arroz < precio_pollo) {
+elif (precio_arroz < precio_pollo)
     print("El arroz cuesta menos que el pollo.");
-} else {
+else
     print("El arroz y pollo cuestan lo mismo.");
-}
 ```
+
+Usando el lenguaje Java:
 
 ```java
 // If, else y else if en Java
@@ -45,6 +53,9 @@ El condicional switch case es una estructura que evalúa más de un caso y se ca
 
 Para cada caso se usa la palabra reservada `case` y, dependiendo del lenguaje, se puede o no utilizar la palabra reservada `break` para cerrar el bucle al llegar a una condición esperada y se puede usar la opción `default` para cuando no se encuentra el caso deseado y queramos dar un resultado por defecto.
 
+**Ejemplos:**
+
+Usando el lenguaje Python:
 
 ```python
 # A partir de Python versión 3.10 se añadió 'match case' similar a 'switch case'
@@ -60,8 +71,9 @@ match color:
         print('Error')
 ```
 
+Usando el lenguaje Java:
+
 ```java
-// "Switch - Case" con Java.
 
 String color = "verde";
 
@@ -72,7 +84,7 @@ switch (color) {
     case "amarillo":
         System.out.println("Advertencia!");
         break;
-    default:
+    default: // Para tener un resultado por defecto.
         System.out.println("Error!");
     break;
 }
